@@ -1,0 +1,20 @@
+.footer-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 30px;
+}
+/* .cook-earn-section,
+.about-section,
+.kitchly-logo-section{
+    width: 50%;
+} */
+
+.kitchly-logo-section p{
+    margin-top: 20px;
+    /* width: 20vw; */
+}
+.about-section{
+    text-align: center;
+}

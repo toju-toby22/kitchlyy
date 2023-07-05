@@ -1,0 +1,52 @@
+
+.bold{
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.become_a_cook-button{
+    background-color: #33D185;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.Logo{
+    height: 4rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+  
+}
+
+@media screen and (max-width: 576px) {
+    .Logo{
+        height: 2rem;
+    }
+
+    .menu-toggle{
+        height: 2rem;
+        outline: none;
+        border: none;
+    }
+  }
+/* For small devices */
+@media screen and (max-width: 350px) {
+ 
+}

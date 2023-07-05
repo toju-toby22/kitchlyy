@@ -1,0 +1,238 @@
+.page_body{
+    padding: 50px;
+}
+
+.food-plate{
+    height: 300px;
+}
+
+.food-images{
+    width: 40vw;
+}
+.header-text{
+    width: 30vw;
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    /* width: 100%; */
+}
+.connecting_food{
+    font-size: 65px;
+}
+.sub-text{
+    margin-top: 50px;
+}
+
+.download-btn{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+/* Fist section */
+.first_section{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 20px; */
+    align-items: center;
+    padding: 20px;
+}
+
+.image img{
+    height: 600px;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    background-color: #33D185;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+
+
+.order-food-online-button{
+    background-color: #33D185;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.banner2{
+    background-color: #33D185;
+    color: white;
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    width: 100%;
+}
+
+.phone{
+    height: 700px;
+    z-index: 100;
+    margin-left: 150px;
+    margin-top: -150px;
+
+}
+
+.phone_container{
+
+}
+
+
+
+
+
+
+
+.frequently_asked{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.drop-down{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.2px solid rgba(0, 0, 0, 0.322);
+    outline: none;
+    /* max-width: 600px; */
+    background: none;
+    padding: 14px;
+    font-weight: bold;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+    .food-plate{
+        height: 200px;
+    }
+
+
+    .image img{
+        height: 300px;
+    }
+  
+}
+
+@media screen and (max-width: 576px) {
+    .banner{
+        display: inline;
+        /* flex-wrap: wrap; */
+        /* margin: 0 auto; */
+        padding: 10px;
+    }
+
+    .connecting_food{
+        font-size: 40px;
+        margin-top: 100px;
+        padding: 10px;
+    }
+
+    .food-plate{
+        height: 120px;
+    }
+
+    .food-images{
+        display: flex;
+        justify-content: center;
+        width: 30vw;
+        padding: 30px;
+    }
+    .sub-text{
+        /* max-width: 400px;
+        padding: 0 20px;
+        width: 90vw; */
+    }
+
+    .food-images{
+        width: 100%;
+    }
+    .header-text{
+        width: 100%;
+    }
+    .download-btn{
+        padding: 20px;
+    }
+    .download-btn img{
+       height: 50px;
+    }
+
+
+
+
+
+    .first_section{
+        margin-top: 1px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 20px; */
+        align-items: center;
+        padding: 20px;
+    }
+
+
+    .image img{
+        height: 300px;
+    }
+
+    .title{
+        margin-top: 30px;
+    }
+
+    .phone{
+        height: 400px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+  
+  }
+/* For small devices */
+@media screen and (max-width: 350px) {
+ 
+}

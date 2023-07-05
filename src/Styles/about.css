@@ -1,0 +1,40 @@
+.best-foods{
+    font-size: 40px;
+}
+
+.food-images{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center; */
+    gap: 10px;
+}
+.doublephone{
+    height: 500px;
+}
+
+.dishes{
+    border-radius: 50%;
+}
+
+.chef2{
+    object-fit: contain;
+    object-position: center;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+
+}
+
+.vendor{
+    display: flex;
+}
+
+
+.main-focus{
+    gap: 50px;
+}

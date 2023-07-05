@@ -1,0 +1,118 @@
+.signup-form{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: auto;
+}
+
+.home-chef{
+    /* margin-top: -200px; */
+    height: 500px;
+}
+.site{
+    margin-top: -250px;
+    width: 10vw;
+}
+
+.submit-button{
+    background-color: #33D185;
+    border: none;
+    width: 100%;
+}
+
+.benefits_header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.benefits__section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card_image{
+    height: 200px;
+    object-position: center;
+    object-fit: contain;
+}
+.card{
+    border: none;
+    outline: none;
+    height: 500px;
+}
+
+.card_body{
+    margin-top: 50px;
+}
+
+
+.sign_up_button{
+    background-color: #33D185;
+    border: none;
+    width: 100%;
+}
+
+.text{
+    text-align: center;
+}
+
+
+
+
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    margin-top: 50px;
+}
+.more_button{
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.525);
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+    width: fit-content;
+}
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+    .signup-form{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .home-chef{
+        /* margin-top: -200px; */
+        height: 300px;
+    }
+
+    .site{
+        display: none;
+    }
+  }
+/* For small devices */
+@media screen and (max-width: 350px) {
+ 
+}
