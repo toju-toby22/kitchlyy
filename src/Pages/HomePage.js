@@ -22,7 +22,7 @@ const HomePage = () => {
         <div>
             <NavigationBar />
 
-            <div className="page_body">
+            <div className="container">
                 <div className="banner">
                     <div className="header-text">
                         <h2 className="connecting_food">

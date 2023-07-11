@@ -212,7 +212,7 @@ const BecomeaCook = () => {
                             <Card.Img variant="top" src={bike} />
                             <Card.Body>
                                 <Card.Title className="first-text">Sign up as a Kitchly Kitchen logistic!</Card.Title>
-                                <Card.Text className="text">
+                                <Card.Text>
                                 Earn money by delivering food orders.
                                 Work whenever you want!
                                 </Card.Text>
@@ -227,7 +227,7 @@ const BecomeaCook = () => {
                             <Card.Img variant="top" src={app} />
                             <Card.Body>
                                 <Card.Title className="first-text">Download the app</Card.Title>
-                                <Card.Text className="text">
+                                <Card.Text>
                                 Order  your  favorite dishes direct to your doorstep with the Bolt Food app.
                                 </Card.Text>
                                 <Button className='more_button' variant="primary">Get the App!</Button>
@@ -242,7 +242,7 @@ const BecomeaCook = () => {
                             <Card.Img variant="top" src={team} />
                             <Card.Body>
                                 <Card.Title className="first-text" >Join the team</Card.Title>
-                                <Card.Text className="text">
+                                <Card.Text>
                                 Make an impact, working for one of Europe's leading tech companies.
                                 </Card.Text>
                                 <Button className='more_button  ' variant="primary">Join the Team</Button>

@@ -18,3 +18,19 @@
 .about-section{
     text-align: center;
 }
+.download-app-btn img{
+    height: 2rem;
+}
+
+
+@media screen and (max-width: 576px) {
+        .download-app-btn{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+
+        .about-section{
+            margin-top: 30px;
+        }
+  }

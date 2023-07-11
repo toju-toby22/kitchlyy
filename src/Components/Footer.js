@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
         <div className="footer-section">
             <div className="kitchly-logo-section">
-                <img src={Logo} alt="" />
+                <img className='Logo'  src={Logo} alt="" />
 
                 <p>
                 Order your favorite food to your doorstep from kitchens in you neighborhood with the Kitchly service.
