@@ -5,7 +5,7 @@ import Apple from "../Assets/Apple store.png"
 import Playstore from "../Assets/image 23.png"
 const Footer = () => {
   return (
-    <div>
+    <div className='footer-container'>
         <div className="footer-section">
             <div className="kitchly-logo-section">
                 <img className='Logo'  src={Logo} alt="" />

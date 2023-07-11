@@ -12,9 +12,11 @@
 }
 
 .home-chef{
-    /* margin-top: -200px; */
     height: 500px;
-    border: 1px solid red;
+    width: 900px;
+    object-fit: contain;
+    object-position: center;
+    /* border: 1px solid red; */
 }
 .site{
     margin-top: -250px;
@@ -28,7 +30,7 @@
 }
 
 .benefits_header{
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
 }
