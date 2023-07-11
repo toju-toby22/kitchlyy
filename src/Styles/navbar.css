@@ -3,6 +3,10 @@
     font-weight: bold;
 }
 
+.backg{
+    background: white;
+}
+
 .links{
     display: flex;
     justify-content: space-around;
@@ -20,7 +24,7 @@
 }
 
 .Logo{
-    height: 4rem;
+    height: 3rem;
 }
 
 /*=============== BREAKPOINTS ===============*/

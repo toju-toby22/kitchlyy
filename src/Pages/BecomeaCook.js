@@ -70,7 +70,7 @@ const BecomeaCook = () => {
                         <Card className='card' style={{ width: '18rem' }}>
                             <Card.Img className='card_image' variant="top" src={firstimage} />
                             <Card.Body className='card_body'>
-                                <Card.Title>Register your kitchen and provide necessary details.</Card.Title>
+                                <Card.Title className='first-text'>Register your kitchen and provide necessary details.</Card.Title>
                                 <Card.Text>
                                     Introduce yourself and get started by registering your Kitchen,
                                     upload images of your kitchen and setup menu of
@@ -85,7 +85,7 @@ const BecomeaCook = () => {
                         <Card className='card' style={{ width: '18rem' }}>
                             <Card.Img className='card_image' variant="top" src={secondimage} />
                             <Card.Body className='card_body'>
-                                <Card.Title>Receive and prepare orders from customers close to you</Card.Title>
+                                <Card.Title className='first-text'>Receive and prepare orders from customers close to you</Card.Title>
                                 <Card.Text>
                                     Receive and Accept orders using the kitchly-kitchen App, and Prepare Orders
                                     from the comfort of your kitchen within the stated time.
@@ -99,7 +99,7 @@ const BecomeaCook = () => {
                         <Card className='card' style={{ width: '18rem' }}>
                             <Card.Img className='card_image' variant="top" src={thirdimage} />
                             <Card.Body className='card_body'>
-                                <Card.Title>Deliver order to your customers.</Card.Title>
+                                <Card.Title className='first-text'>Deliver order to your customers.</Card.Title>
                                 <Card.Text>
                                     You have just prepared a delicious meal, Deliver the prepared
                                     meal to your customers and get paid. Enjoy the services at ease
@@ -113,7 +113,7 @@ const BecomeaCook = () => {
 
 
 
-                <div>
+                <div className='sections_header'>
 
                     <div>
                         <h1 className='benefits_header'>Starting with Kitchly Kitchen is easy</h1>
@@ -121,9 +121,9 @@ const BecomeaCook = () => {
 
                     <div className="benefits__section">
                         <Card className='card' style={{ width: '18rem' }}>
-                            <Card.Img className='card_image' variant="top" src={signicon} />
+                            <Card.Img className='card_icon' variant="top" src={signicon} />
                             <Card.Body className='card_body'>
-                                <Card.Title className='text'>Sign up for free</Card.Title>
+                                <Card.Title className='first-text'>Sign up for free</Card.Title>
                                 <Card.Text className='text'>
                                     Our team will be in touch to get you started.
                                 </Card.Text>
@@ -136,9 +136,9 @@ const BecomeaCook = () => {
 
 
                         <Card className='card' style={{ width: '18rem' }}>
-                            <Card.Img className='card_image' variant="top" src={homeicon} />
+                            <Card.Img className='card_icon' variant="top" src={homeicon} />
                             <Card.Body className='card_body'>
-                                <Card.Title className='text'>We set up your profile</Card.Title>
+                                <Card.Title className='first-text'>We set up your profile</Card.Title>
                                 <Card.Text className='text'>
                                     We'll add your menu and desired working hours to the app for you.
                                 </Card.Text>
@@ -150,9 +150,9 @@ const BecomeaCook = () => {
 
 
                         <Card className='card' style={{ width: '18rem' }}>
-                            <Card.Img className='card_image' variant="top" src={ratings} />
+                            <Card.Img className='card_icon' variant="top" src={ratings} />
                             <Card.Body className='card_body'>
-                                <Card.Title className='text'>Start making more sales</Card.Title>
+                                <Card.Title className='first-text'>Start making more sales</Card.Title>
                                 <Card.Text className='text'>
                                     Sit back, relax and watch your business thrive.
                                 </Card.Text>
@@ -211,7 +211,7 @@ const BecomeaCook = () => {
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={bike} />
                             <Card.Body>
-                                <Card.Title className="text">Sign up as a Kitchly Kitchen logistic!</Card.Title>
+                                <Card.Title className="first-text">Sign up as a Kitchly Kitchen logistic!</Card.Title>
                                 <Card.Text className="text">
                                 Earn money by delivering food orders.
                                 Work whenever you want!
@@ -226,7 +226,7 @@ const BecomeaCook = () => {
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={app} />
                             <Card.Body>
-                                <Card.Title className="text">Download the app</Card.Title>
+                                <Card.Title className="first-text">Download the app</Card.Title>
                                 <Card.Text className="text">
                                 Order  your  favorite dishes direct to your doorstep with the Bolt Food app.
                                 </Card.Text>
@@ -241,11 +241,11 @@ const BecomeaCook = () => {
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={team} />
                             <Card.Body>
-                                <Card.Title className="text">Join the team</Card.Title>
+                                <Card.Title className="first-text" >Join the team</Card.Title>
                                 <Card.Text className="text">
                                 Make an impact, working for one of Europe's leading tech companies.
                                 </Card.Text>
-                                <Button className='more_button' variant="primary">Join the Team</Button>
+                                <Button className='more_button  ' variant="primary">Join the Team</Button>
                             </Card.Body>
                         </Card>
                     </div>

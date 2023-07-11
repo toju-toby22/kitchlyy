@@ -10,9 +10,10 @@ import { Link } from 'react-router-dom';
 const NavigationBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" fixed="top">
+            <Navbar collapseOnSelect expand="lg" className="backg" fixed="top">
                 <Container className='me-auto'>
-                    <Link to="/">  <Navbar.Brand href="#home">
+                    <Link to="/">  
+                    <Navbar.Brand href="#home">
                         <img className='Logo' src={Logo} alt='' />
                     </Navbar.Brand>
                     </Link>
