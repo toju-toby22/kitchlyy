@@ -210,14 +210,15 @@ const BecomeaCook = () => {
                     <div className="more">
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={bike} />
-                            <Card.Body>
+                            <Card.Body className="card_container">
                                 <Card.Title className="first-text">Sign up as a Kitchly Kitchen logistic!</Card.Title>
-                                <Card.Text>
+                                <Card.Text className="card_container">
                                 Earn money by delivering food orders.
                                 Work whenever you want!
                                 </Card.Text>
-                                <Button className='more_button' variant="primary">Sign Up!</Button>
                             </Card.Body>
+                            <Button className='more_button' variant="primary">Sign Up!</Button>
+
                         </Card>
 
 
@@ -225,14 +226,15 @@ const BecomeaCook = () => {
 
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={app} />
-                            <Card.Body>
+                            <Card.Body className="card_container">
                                 <Card.Title className="first-text">Download the app</Card.Title>
-                                <Card.Text>
+                                <Card.Text className="card_container">
                                 Order  your  favorite dishes direct to your doorstep with the Bolt Food app.
                                 </Card.Text>
-                                <Button className='more_button' variant="primary">Get the App!</Button>
-
                             </Card.Body>
+
+                            <Button className='more_button' variant="primary">Get the App!</Button>
+
                         </Card>
 
 
@@ -240,13 +242,14 @@ const BecomeaCook = () => {
 
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={team} />
-                            <Card.Body>
+                            <Card.Body className="card_container">
                                 <Card.Title className="first-text" >Join the team</Card.Title>
                                 <Card.Text>
-                                Make an impact, working for one of Europe's leading tech companies.
+                                Make an impact, working for one of Europe's leading tech companies .
                                 </Card.Text>
-                                <Button className='more_button  ' variant="primary">Join the Team</Button>
                             </Card.Body>
+                            <Button className='more_button' variant="primary">Join the Team</Button>
+
                         </Card>
                     </div>
                 </div>

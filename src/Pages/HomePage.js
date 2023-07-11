@@ -139,10 +139,7 @@ const HomePage = () => {
 
                         <Button className='order-food-online-button' variant="outline-secondary">Learn More</Button>{' '}
                     </div>
-
-
-
-
+                    
                     <div className="image">
                         <img src={deliver} alt="" />
                     </div>
