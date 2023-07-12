@@ -1,13 +1,16 @@
 
 .footer-container{
-    margin-top: 30px;
+    margin-top: 150px;
+    background-color: #33d18544;
+
 }
 .footer-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 30px;
+    justify-content: center;
+    /* margin: 0 50px; */
+    padding:20px 10px;
+    gap: 20px;
 }
 /* .cook-earn-section,
 .about-section,

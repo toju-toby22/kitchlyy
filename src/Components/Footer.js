@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='footer-container'>
         <div className="footer-section">
-            <div className="kitchly-logo-section">
+            <div className="kitchly-logo-section" style={{ width: '25rem' }}>
                 <img className='Logo'  src={Logo} alt="" />
 
                 <p>
@@ -22,14 +22,14 @@ const Footer = () => {
 
 
 
-            <div className="about-section">
+            <div className="about-section" style={{ width: '25rem' }}>
             <h2>About Us</h2>
             <p>Privacy Policy</p>
             </div>
 
 
 
-            <div className="cook-earn-section">
+            <div className="cook-earn-section" style={{ width: '25rem' }}>
             <h2>Cook and earn now!</h2>
             <p>Use the link below to see how to open your kitchen account</p>
             </div>

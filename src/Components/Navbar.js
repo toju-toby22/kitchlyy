@@ -37,7 +37,6 @@ const NavigationBar = () => {
                         <Nav className='links'>
                             <Link to="/About">  <Nav.Link className='bold' href="#deets">About Us</Nav.Link></Link>
                             <Nav.Link className='bold' href="#deets">Vendor</Nav.Link>
-                            <Nav.Link className='bold' href="#deets">Logistics</Nav.Link>
                             <Link to="/BecomeaCook"><Button className='become_a_cook-button' variant="success">Become a Cook</Button></Link>
                             {/* <button className='become_a_cook-button'>Become a cook</button> */}
                         </Nav>

@@ -3,7 +3,7 @@ import Footer from '../Components/Footer'
 import NavigationBar from '../Components/Navbar'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Homechef from "../Assets/Home-chef.png"
+import Homechef from "../Assets/Download our 1.png"
 import "../Styles/becomeaChef.css";
 import Card from 'react-bootstrap/Card';
 import firstimage from "../Assets/first_image.png"
@@ -46,7 +46,7 @@ const BecomeaCook = () => {
                         </Form>
 
 
-                        <p>
+                        <p className='signUp_terms_of_services'>
                             Our team will contact you shortly with more information.By signing up,
                             you agree to our Terms of Service & Privacy Policy.
                         </p>
@@ -67,11 +67,11 @@ const BecomeaCook = () => {
                     </div>
 
                     <div className="benefits__section">
-                        <Card className='card' style={{ width: '18rem' }}>
+                        <Card className='card' style={{ width: '25rem' }}>
                             <Card.Img className='card_image' variant="top" src={firstimage} />
                             <Card.Body className='card_body'>
                                 <Card.Title className='first-text'>Register your kitchen and provide necessary details.</Card.Title>
-                                <Card.Text>
+                                <Card.Text className="card_container">
                                     Introduce yourself and get started by registering your Kitchen,
                                     upload images of your kitchen and setup menu of
                                     meals you can cook and let customers discover you.
@@ -82,7 +82,7 @@ const BecomeaCook = () => {
 
 
 
-                        <Card className='card' style={{ width: '18rem' }}>
+                        <Card className='card' style={{ width: '25rem' }}>
                             <Card.Img className='card_image' variant="top" src={secondimage} />
                             <Card.Body className='card_body'>
                                 <Card.Title className='first-text'>Receive and prepare orders from customers close to you</Card.Title>
@@ -96,7 +96,7 @@ const BecomeaCook = () => {
 
 
 
-                        <Card className='card' style={{ width: '18rem' }}>
+                        <Card className='card' style={{ width: '25rem' }}>
                             <Card.Img className='card_image' variant="top" src={thirdimage} />
                             <Card.Body className='card_body'>
                                 <Card.Title className='first-text'>Deliver order to your customers.</Card.Title>
@@ -208,7 +208,7 @@ const BecomeaCook = () => {
 
                 <div>
                     <div className="more">
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '25rem' }}>
                             <Card.Img variant="top" src={bike} />
                             <Card.Body className="card_container">
                                 <Card.Title className="first-text">Sign up as a Kitchly Kitchen logistic!</Card.Title>
@@ -217,14 +217,17 @@ const BecomeaCook = () => {
                                 Work whenever you want!
                                 </Card.Text>
                             </Card.Body>
+                            <div className="button_container">
                             <Button className='more_button' variant="primary">Sign Up!</Button>
+
+                            </div>
 
                         </Card>
 
 
 
 
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '25rem' }}>
                             <Card.Img variant="top" src={app} />
                             <Card.Body className="card_container">
                                 <Card.Title className="first-text">Download the app</Card.Title>
@@ -232,15 +235,17 @@ const BecomeaCook = () => {
                                 Order  your  favorite dishes direct to your doorstep with the Bolt Food app.
                                 </Card.Text>
                             </Card.Body>
+                    <div className="button_container">
+                    <Button className='more_button' variant="primary">Get the App!</Button>
 
-                            <Button className='more_button' variant="primary">Get the App!</Button>
+                    </div>
 
                         </Card>
 
 
 
 
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '25rem' }}>
                             <Card.Img variant="top" src={team} />
                             <Card.Body className="card_container">
                                 <Card.Title className="first-text" >Join the team</Card.Title>
@@ -248,8 +253,9 @@ const BecomeaCook = () => {
                                 Make an impact, working for one of Europe's leading tech companies .
                                 </Card.Text>
                             </Card.Body>
+                            <div className="button_container">
                             <Button className='more_button' variant="primary">Join the Team</Button>
-
+                            </div>
                         </Card>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import NavigationBar from '../Components/Navbar'
-import Food from "../Assets/food 2.png"
+import Food from "../Assets/ui background kitchly.png"
 import "../Styles/homePage.css"
 import Apple from "../Assets/Apple store.png"
 import Playstore from "../Assets/image 23.png"
@@ -42,8 +42,6 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="food-images">
-                        <img className='food-plate' src={Food} alt="" />
-                        <img className='food-plate' src={Food} alt="" />
                         <img className='food-plate' src={Food} alt="" />
                     </div>
                 </div>
@@ -139,7 +137,7 @@ const HomePage = () => {
 
                         <Button className='order-food-online-button' variant="outline-secondary">Learn More</Button>{' '}
                     </div>
-                    
+
                     <div className="image">
                         <img src={deliver} alt="" />
                     </div>
@@ -248,8 +246,8 @@ const HomePage = () => {
 
 
 
-                <div className="banner2">
-                    <div className="header-text">
+                <div className="second_banner">
+                    <div className="second_header-text">
                         <h2 className="connecting_food">
                         Order your home cooked Food and feel at home 
                         </h2>
