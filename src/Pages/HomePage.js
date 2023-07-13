@@ -34,13 +34,8 @@ const HomePage = () => {
 Order home-made meals from verified Cooks around your community and get it delivered to you. Are you feeding a large family or just for you. Just tell us your cravings, we will cook it and get it delivered to you. We believe the best meals are cooked in our local kitchens.                        </p>
 
                         <div className="download-btn">
-<<<<<<< Updated upstream
-                            <img className='Logo' src={Apple} alt="" />
-                            <img className='Logo' src={Playstore} alt="" />
-=======
                             <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img src={Apple} alt="" /></a>
                             <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img src={Playstore} alt="" /></a>
->>>>>>> Stashed changes
                         </div>
                     </div>
                     <div className="food-images">
