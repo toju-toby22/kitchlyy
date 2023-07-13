@@ -25,6 +25,7 @@
 }
 .connecting_food{
     font-size: 65px;
+    font-weight: 600 !important;
 }
 .sub-text{
     margin-top: 50px;
@@ -195,6 +196,7 @@
 
     .connecting_food{
         font-size: 40px;
+        font-weight: 800 !important;
         padding: 20px;
         margin-top: 30px;
     }

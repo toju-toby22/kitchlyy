@@ -26,19 +26,21 @@ const HomePage = () => {
                 <div className="banner">
                     <div className="header-text">
                         <h2 className="connecting_food">
-                            Connecting food lovers to Kitchens nearby
+                        Home-Made Meals delivered to your doorstep.
                         </h2>
 
                         <p className='sub-text'>
-                            An online food ordering platform focused on bringing local and private kitchens online.
-                            We believe that the best foods are cooked in our local kitchensAn online food
-                            ordering platform focused on bringing local and private kitchens online.
-                            We believe that the best foods are cooked in our local kitchens
-                        </p>
+                       
+Order home-made meals from verified Cooks around your community and get it delivered to you. Are you feeding a large family or just for you. Just tell us your cravings, we will cook it and get it delivered to you. We believe the best meals are cooked in our local kitchens.                        </p>
 
                         <div className="download-btn">
+<<<<<<< Updated upstream
                             <img className='Logo' src={Apple} alt="" />
                             <img className='Logo' src={Playstore} alt="" />
+=======
+                            <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img src={Apple} alt="" /></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img src={Playstore} alt="" /></a>
+>>>>>>> Stashed changes
                         </div>
                     </div>
                     <div className="food-images">
