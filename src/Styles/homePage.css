@@ -6,9 +6,9 @@
     height: 600px;
 }
 
-.food-images{
+/* .food-images{
     width: 40vw;
-}
+} */
 .header-text{
     width: 40vw;
 }
@@ -53,7 +53,7 @@
     /* padding: 20px; */
 }
 
-.image img{
+.image{
     height: 600px;
 }
 
@@ -196,25 +196,24 @@
     .connecting_food{
         font-size: 40px;
         padding: 20px;
+        margin-top: 30px;
     }
 
     .food-plate{
-        height: 120px;
+        height: 200px;
     }
 
     .food-images{
         display: flex;
         justify-content: center;
-        width: 30vw;
-        padding: 30px;
-    }
-    .food-images{
         width: 100%;
     }
     .header-text{
         width: 100%;
     }
     .download-btn{
+        display: flex;
+        justify-content: center;
         /* padding: 20px; */
     }
     .download-btn img{
@@ -235,7 +234,7 @@
     }
 
 
-    .image img{
+    .image{
         height: 300px;
     }
 
@@ -247,6 +246,11 @@
         height: 400px;
         margin-top: 0px;
         margin-left: 0px;
+    }
+
+
+    .second_header-text{
+        width: 100%;
     }
   
   }
