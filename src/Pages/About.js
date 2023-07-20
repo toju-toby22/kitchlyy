@@ -8,6 +8,10 @@ import doublephone from "../Assets/double-phone.png"
 import dish1 from "../Assets/dish1.png"
 import dishes2 from "../Assets/dishes2.png"
 
+import about_1 from "../Assets/about_1.png"
+import about_2 from "../Assets/about_2.png"
+import about_3 from "../Assets/about_3.jpg"
+import about_4 from "../Assets/about_4.png"
 
 
 import man from "../Assets/man.png"
@@ -36,7 +40,7 @@ const About = () => {
                     </div>
 
                     <div className="food-images">
-                        <img className='food-plate doublephone' src={doublephone} alt="" />
+                        <img className='food-plate doublephone' src={about_1} alt="" />
                     </div>
 
                 </div>
@@ -46,7 +50,7 @@ const About = () => {
                 <div className="banner main-focus">
 
                     <div className="food-images">
-                        <img className='food-plate doublephone' src={doublephone} alt="" />
+                        <img className='food-plate doublephone' src={about_2} alt="" />
                     </div>
 
 
@@ -71,7 +75,7 @@ const About = () => {
                 <div className="banner main-focus">
 
                     <div className="food-images">
-                        <img className='food-plate doublephone' src={doublephone} alt="" />
+                        <img className='food-plate doublephone' src={about_3} alt="" />
                     </div>
 
 
@@ -100,7 +104,7 @@ const About = () => {
                 <div className="banner main-focus">
 
                     <div className="food-images">
-                        <img className='food-plate doublephone' src={doublephone} alt="" />
+                        <img className='food-plate doublephone' src={about_4} alt="" />
                     </div>
 
 
