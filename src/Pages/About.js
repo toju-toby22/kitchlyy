@@ -1,11 +1,8 @@
 import React from 'react'
 import NavigationBar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-import Food from "../Assets/food 2.png"
 import Apple from "../Assets/Apple store.png"
 import Playstore from "../Assets/play_store.png"
-import chef1 from "../Assets/chef 1.png"
-import chef2 from "../Assets/chef 2.png"
 import restaurants from "../Assets/resturant.png"
 import doublephone from "../Assets/double-phone.png"
 import dish1 from "../Assets/dish1.png"
