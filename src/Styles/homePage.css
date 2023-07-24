@@ -147,7 +147,7 @@
 
 
 .frequently_asked{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: flex;
     justify-content: center;
     flex-direction: column;

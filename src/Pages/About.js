@@ -49,11 +49,6 @@ const About = () => {
 
                 <div className="banner main-focus row">
 
-                    <div className="food-images col-md-5">
-                        <img className='food-plate doublephone' src={about_2} alt="" />
-                    </div>
-
-
                     <div className="header-text col-md-6">
                         <h3 className="connecting_food best-foods ">
                             Making food accessible by breaking the monopoly through homemade meals.
@@ -65,6 +60,10 @@ const About = () => {
                             you will open kitchly and place an order for sme of that wonderful food.
                         </p>
 
+                    </div>
+
+                    <div className="food-images col-md-5">
+                        <img className='food-plate doublephone' src={about_2} alt="" />
                     </div>
 
                 </div>
@@ -74,7 +73,9 @@ const About = () => {
 
                 <div className="banner main-focus row">
 
-                    
+                <div className="food-images col-md-5">
+                        <img className='food-plate doublephone' src={about_3} alt="" />
+                    </div>
 
 
                     <div className="header-text col-md-6">
@@ -90,10 +91,6 @@ const About = () => {
 
                     </div>
 
-
-                    <div className="food-images col-md-5">
-                        <img className='food-plate doublephone' src={about_3} alt="" />
-                    </div>
                 </div>
 
 
