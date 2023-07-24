@@ -13,7 +13,7 @@
 .Join_the_team{
     height: 300px;
     object-position: center;
-    /* object-fit: contain; */
+    object-fit: cover;
 }
 
 .form_header{
@@ -69,6 +69,7 @@
 
 .card_icon{
     height: 150px;
+    /* width: 100%; */
     object-position: center;
     object-fit: contain;
 }
@@ -79,6 +80,7 @@
 }
 .card_container{
     height: max-content;
+    text-align: center;
 }
 
 .card_body{
@@ -163,7 +165,8 @@
     }
     .home-chef{
         margin-top: 30px;
-        height: 230px;
+        height: 260px;
+        width: max-content;
     }
 
     .site{

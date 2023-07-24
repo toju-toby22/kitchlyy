@@ -107,7 +107,7 @@ const About = () => {
                     </div>
 
 
-                    <div className="header-text col-md-6">
+                    <div className="header-text col-md-7">
                         <h3 className="connecting_food best-foods ">
                             Making food accessible by breaking the monopoly through homemade meals.
                         </h3>

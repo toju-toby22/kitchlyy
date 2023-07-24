@@ -25,8 +25,8 @@ const BecomeaCook = () => {
         <div>
             <NavigationBar />
             <div className="container">
-                <div className="signup-form row">
-                    <div className="form col-md-4">
+                <div className="signup-form">
+                    <div className="form">
                         <h2 className='form_header'>Cook and Earn from your kitchen</h2>
                         <p>Kitchly-kitchen is an app for everyone who love to cook and can cook good meals.
                             With kitchly kitchens you can cook from the comfort of your kitchen
@@ -53,7 +53,7 @@ const BecomeaCook = () => {
                     </div>
 
 
-                    <div className='signup_image col-md-7'>
+                    <div className='signup_image'>
                         <img className='home-chef' src={Homechef} alt="" />
                     </div>
 
