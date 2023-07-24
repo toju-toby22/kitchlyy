@@ -67,11 +67,11 @@
     object-fit: contain;
 }
 
-.card_icon{
-    height: 150px;
-    /* width: 100%; */
+.card_icons{
+    height: 300px;
+    width: 100%;
     object-position: center;
-    object-fit: contain;
+    object-fit: cover;
 }
 .card{
     border: none;

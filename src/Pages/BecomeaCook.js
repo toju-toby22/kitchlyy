@@ -122,7 +122,7 @@ const BecomeaCook = () => {
 
                     <div className="benefits__section row">
                         <Card className='card col-md-4' style={{ width: '18rem' }}>
-                            <Card.Img className='card_icon' variant="top" src={signicon} />
+                            <Card.Img className='card_icons' variant="top" src={signicon} />
                             <Card.Body className='card_body'>
                                 <Card.Title className='first-text'>Sign up for free</Card.Title>
                                 <Card.Text className='text'>
@@ -137,7 +137,7 @@ const BecomeaCook = () => {
 
 
                         <Card className='card col-md-4' style={{ width: '18rem' }}>
-                            <Card.Img className='card_icon' variant="top" src={homeicon} />
+                            <Card.Img className='card_icons' variant="top" src={homeicon} />
                             <Card.Body className='card_body'>
                                 <Card.Title className='first-text'>We set up your profile</Card.Title>
                                 <Card.Text className='text'>
@@ -151,7 +151,7 @@ const BecomeaCook = () => {
 
 
                         <Card className='card col-md-4' style={{ width: '18rem' }}>
-                            <Card.Img className='card_icon' variant="top" src={ratings} />
+                            <Card.Img className='card_icons' variant="top" src={ratings} />
                             <Card.Body className='card_body'>
                                 <Card.Title className='first-text'>Start making more sales</Card.Title>
                                 <Card.Text className='text'>
