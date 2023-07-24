@@ -24,9 +24,9 @@ const About = () => {
             <NavigationBar />
 
             <div className='container'>
-                <div className="banner main-focus">
+                <div className="banner main-focus row">
 
-                    <div className="header-text">
+                    <div className="header-text col-md-6">
                         <h3 className="connecting_food best-foods ">
                             Making food accessible by breaking the monopoly through homemade meals.
                         </h3>
@@ -39,7 +39,7 @@ const About = () => {
 
                     </div>
 
-                    <div className="food-images">
+                    <div className="food-images col-md-5">
                         <img className='food-plate doublephone' src={about_1} alt="" />
                     </div>
 
@@ -47,14 +47,14 @@ const About = () => {
 
 
 
-                <div className="banner main-focus">
+                <div className="banner main-focus row">
 
-                    <div className="food-images">
+                    <div className="food-images col-md-5">
                         <img className='food-plate doublephone' src={about_2} alt="" />
                     </div>
 
 
-                    <div className="header-text">
+                    <div className="header-text col-md-6">
                         <h3 className="connecting_food best-foods ">
                             Making food accessible by breaking the monopoly through homemade meals.
                         </h3>
@@ -72,26 +72,28 @@ const About = () => {
 
 
 
-                <div className="banner main-focus">
+                <div className="banner main-focus row">
 
-                    <div className="food-images">
+                    
+
+
+                    <div className="header-text col-md-6">
+                        <h3 className="connecting_food best-foods ">
+                            Making food accessible by breaking the monopoly through homemade meals.
+                        </h3>
+
+                        <p className='sub-text'>
+                            Maybe one day, while the amazing aroma comes out of your neighbour’s kitchen,
+                            rather than dreaming of the food being prepared,
+                            you will open kitchly and place an order for sme of that wonderful food.
+                        </p>
+
+                    </div>
+
+
+                    <div className="food-images col-md-5">
                         <img className='food-plate doublephone' src={about_3} alt="" />
                     </div>
-
-
-                    <div className="header-text">
-                        <h3 className="connecting_food best-foods ">
-                            Making food accessible by breaking the monopoly through homemade meals.
-                        </h3>
-
-                        <p className='sub-text'>
-                            Maybe one day, while the amazing aroma comes out of your neighbour’s kitchen,
-                            rather than dreaming of the food being prepared,
-                            you will open kitchly and place an order for sme of that wonderful food.
-                        </p>
-
-                    </div>
-
                 </div>
 
 
@@ -101,14 +103,14 @@ const About = () => {
 
 
 
-                <div className="banner main-focus">
+                <div className="banner main-focu row">
 
-                    <div className="food-images">
+                    <div className="food-images col-md-5">
                         <img className='food-plate doublephone' src={about_4} alt="" />
                     </div>
 
 
-                    <div className="header-text">
+                    <div className="header-text col-md-6">
                         <h3 className="connecting_food best-foods ">
                             Making food accessible by breaking the monopoly through homemade meals.
                         </h3>

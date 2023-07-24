@@ -10,6 +10,11 @@
 .form{
     width: 30vw;
 }
+.Join_the_team{
+    height: 300px;
+    object-position: center;
+    /* object-fit: contain; */
+}
 
 .form_header{
     font-weight: bold;
@@ -151,10 +156,14 @@
     }
    
     
-
+    .signup_image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .home-chef{
-        margin-top: 30px;
-        height: 250px;
+        /* margin-top: 30px; */
+        height: 230px;
     }
 
     .site{
