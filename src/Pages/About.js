@@ -12,6 +12,7 @@ import about_1 from "../Assets/about_2.png"
 import about_3 from "../Assets/about_1.png"
 import about_2 from "../Assets/about_3.jpg"
 import about_4 from "../Assets/about_4.png"
+import phone from "../Assets/phone.png"
 
 
 import man from "../Assets/man.png"
@@ -69,7 +70,7 @@ const About = () => {
 
                 </div>
 
-                <div className="banner main-focu row">
+                <div className="banner main-focus row">
 
                     <div className="food-images col-md-5">
                         <img className='food-plate doublephone' src={about_4} alt="" />
@@ -78,7 +79,7 @@ const About = () => {
 
                     <div className="header-text col-md-7">
                         <h3 className="connecting_food best-foods ">
-                        “No restaurant or hotel can bring you Grandma’s recipe, but the local Kitchens can!”
+                            “No restaurant or hotel can bring you Grandma’s recipe, but the local Kitchens can!”
                         </h3>
 
                     </div>
@@ -88,8 +89,31 @@ const About = () => {
 
                 <div className="banner main-focus row">
 
+                
+                    <div className="header-text col-md-6">
+                        <h3 className="connecting_food best-foods ">
+                            Empowering a 80% entrepreneurs
+                        </h3>
+
+                        <p className='sub-text'>
+                            We are empowering 80% of women who can cook quality meals,
+                            get it delivered and earn from the comfort of their home, bringing economic diversity.
+                        </p>
+
+                    </div>
+
                     <div className="food-images col-md-5">
                         <img className='food-plate doublephone' src={about_3} alt="" />
+                    </div>
+
+                </div>
+
+
+
+                <div className="banner main-focus row">
+
+                    <div className="food-images col-md-5">
+                        <img className='food-plate doublephone' src={phone} alt="" />
                     </div>
 
 
@@ -99,8 +123,8 @@ const About = () => {
                         </h3>
 
                         <p className='sub-text'>
-                        We are empowering 80% of women who can cook quality meals, 
-                        get it delivered and earn from the comfort of their home, bringing economic diversity.
+                            We are empowering 80% of women who can cook quality meals,
+                            get it delivered and earn from the comfort of their home, bringing economic diversity.
                         </p>
 
                     </div>

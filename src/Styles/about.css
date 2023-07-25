@@ -36,5 +36,6 @@
 
 
 .main-focus{
-    /* gap: 50px; */
+    gap: 50px;
+    margin-top: -50px;
 }
