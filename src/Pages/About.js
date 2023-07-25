@@ -119,12 +119,13 @@ const About = () => {
 
                     <div className="header-text col-md-6">
                         <h3 className="connecting_food best-foods ">
-                            Empowering a 80% entrepreneurs
+                        Making food accessible by breaking the monopoly through homemade meals.
                         </h3>
 
                         <p className='sub-text'>
-                            We are empowering 80% of women who can cook quality meals,
-                            get it delivered and earn from the comfort of their home, bringing economic diversity.
+                        Maybe one day, while the amazing aroma comes out of your neighbour’s kitchen, 
+                        rather than dreaming of the food being prepared, 
+                        you will open kitchly and place an order for sme of that wonderful food.
                         </p>
 
                     </div>
