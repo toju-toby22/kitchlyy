@@ -51,7 +51,7 @@ const About = () => {
                 <div className="banner main-focus row">
 
                     <div className="food-images col-md-5">
-                        <img className='food-plate doublephone' src={about_2} alt="" />
+                        <img className='people-picture' src={about_2} alt="" />
                     </div>
 
                     <div className="header-text col-md-6">

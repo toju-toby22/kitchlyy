@@ -10,10 +10,13 @@
     gap: 20px;
     align-items: center;
     justify-content: center; */
-    gap: 10px;
+    /* gap: 10px; */
 }
-.doublephone{
-    /* height: 500px; */
+.people-picture{
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
 }
 
 .dishes{
