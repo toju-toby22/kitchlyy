@@ -28,7 +28,7 @@ const About = () => {
                 <div className="banner main-focus row">
 
                     <div className="header-text col-md-6">
-                        <h3 className="connecting_food best-foods ">
+                        <h3 className="best-foods ">
                             Best foods are cooked in our local kitchens in local ways.
                         </h3>
 
@@ -55,7 +55,7 @@ const About = () => {
                     </div>
 
                     <div className="header-text col-md-6">
-                        <h3 className="connecting_food best-foods ">
+                        <h3 className="best-foods ">
                             The Main Focus Of Kitchly
                         </h3>
 
@@ -78,7 +78,7 @@ const About = () => {
 
 
                     <div className="header-text col-md-7">
-                        <h3 className="connecting_food best-foods ">
+                        <h3 className="best-foods ">
                             “No restaurant or hotel can bring you Grandma’s recipe, but the local Kitchens can!”
                         </h3>
 
@@ -91,7 +91,7 @@ const About = () => {
 
                 
                     <div className="header-text col-md-6">
-                        <h3 className="connecting_food best-foods ">
+                        <h3 className="best-foods ">
                             Empowering a 80% entrepreneurs
                         </h3>
 
@@ -118,7 +118,7 @@ const About = () => {
 
 
                     <div className="header-text col-md-6">
-                        <h3 className="connecting_food best-foods ">
+                        <h3 className="best-foods ">
                         Making food accessible by breaking the monopoly through homemade meals.
                         </h3>
 
