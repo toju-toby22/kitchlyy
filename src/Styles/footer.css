@@ -33,6 +33,11 @@
     margin-top: 20px;
 }
 
+.logo{
+    height: 50px;
+}
+
+
 @media screen and (max-width: 576px) {
 
     .logo_box{

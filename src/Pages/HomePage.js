@@ -308,7 +308,7 @@ const HomePage = () => {
                         Order your home cooked Food and feel at home
                     </h2>
 
-                    <p className='sub-text'>
+                    <p className='sub-tex'>
                         Scan the QR code with your phone camera
                         to download the Kitchly kitchen Food app.
                         Available for iOS and Android devices.

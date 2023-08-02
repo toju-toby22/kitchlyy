@@ -121,11 +121,11 @@ const BecomeaCook = () => {
                     </div>
 
                     <div className="benefits__section">
-                        <Card className='card' style={{ width: '25rem' }}>
+                        <Card className='card' style={{ width: '20rem' }}>
                             <Card.Img className='Join_the_team' variant="top" src={signicon} />
-                            <Card.Body className='card_containe'>
+                            <Card.Body className='card_container'>
                                 <Card.Title className='first-text'>Sign up for free</Card.Title>
-                                <Card.Text className='text'>
+                                <Card.Text className='card_container'>
                                     Our team will be in touch to get you started.
                                 </Card.Text>
 
@@ -136,11 +136,11 @@ const BecomeaCook = () => {
                         {/* <img className='site' src={site} alt="" /> */}
 
 
-                        <Card className='card' style={{ width: '25rem' }}>
-                            <Card.Img className='Join_the_team' variant="top" src={homeicon} />
-                            <Card.Body className='card_containey'>
+                        <Card className='card' style={{ width: '20rem' }}>
+                            <Card.Img className='cooking' variant="top" src={homeicon} />
+                            <Card.Body className='card_container'>
                                 <Card.Title className='first-text'>We set up your profile</Card.Title>
-                                <Card.Text className='text'>
+                                <Card.Text className='card_container'>
                                     We'll add your menu and desired working hours to the app for you.
                                 </Card.Text>
                                 <Button className='sign_up_button' variant="success">Sign Up Now</Button>
@@ -150,11 +150,11 @@ const BecomeaCook = () => {
                         {/* <img className='site' src={site} alt="" /> */}
 
 
-                        <Card className='card' style={{ width: '25rem' }}>
+                        <Card className='card' style={{ width: '20rem' }}>
                             <Card.Img className='Join_the_team' variant="top" src={ratings} />
-                            <Card.Body className='card_containe'>
+                            <Card.Body className='card_container'>
                                 <Card.Title className='first-text'>Start making more sales</Card.Title>
-                                <Card.Text className='text'>
+                                <Card.Text className='card_container'>
                                     Sit back, relax and watch your business thrive.
                                 </Card.Text>
 
