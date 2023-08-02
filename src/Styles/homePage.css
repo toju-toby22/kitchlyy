@@ -31,6 +31,10 @@
     margin-top: 50px;
 }
 
+.download{
+    display: flex;
+    gap: 20px;
+}
 .download-btn{
     margin-top: 50px;
 }
@@ -232,8 +236,12 @@
     }
     
     .download-btn img{
-       height: 45px;
-       margin: auto;
+       height: 40px;
+       /* margin: auto; */
+    }
+
+    .download-btn{
+        display: flex;
     }
 
 

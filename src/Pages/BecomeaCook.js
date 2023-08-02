@@ -91,7 +91,7 @@ const BecomeaCook = () => {
                                 </Card.Text>
                             </Card.Body>
 
-                                <Button className='sign_up_button' variant="success">Go somewhere</Button>
+                                <Button className='sign_up_button' variant="success">Sign Up Now</Button>
 
                         </Card>
 
@@ -120,10 +120,10 @@ const BecomeaCook = () => {
                         <h1 className='benefits_header'>Starting with Kitchly Kitchen is easy</h1>
                     </div>
 
-                    <div className="benefits__section row">
-                        <Card className='card col-md-4' style={{ width: '18rem' }}>
-                            <Card.Img className='card_icons' variant="top" src={signicon} />
-                            <Card.Body className='card_body'>
+                    <div className="benefits__section">
+                        <Card className='card' style={{ width: '25rem' }}>
+                            <Card.Img className='Join_the_team' variant="top" src={signicon} />
+                            <Card.Body className='card_containe'>
                                 <Card.Title className='first-text'>Sign up for free</Card.Title>
                                 <Card.Text className='text'>
                                     Our team will be in touch to get you started.
@@ -133,26 +133,26 @@ const BecomeaCook = () => {
                         </Card>
 
 
-                        <img className='site' src={site} alt="" />
+                        {/* <img className='site' src={site} alt="" /> */}
 
 
-                        <Card className='card col-md-4' style={{ width: '18rem' }}>
-                            <Card.Img className='card_icons' variant="top" src={homeicon} />
-                            <Card.Body className='card_body'>
+                        <Card className='card' style={{ width: '25rem' }}>
+                            <Card.Img className='Join_the_team' variant="top" src={homeicon} />
+                            <Card.Body className='card_containey'>
                                 <Card.Title className='first-text'>We set up your profile</Card.Title>
                                 <Card.Text className='text'>
                                     We'll add your menu and desired working hours to the app for you.
                                 </Card.Text>
-                                <Button className='sign_up_button' variant="primary">Go somewhere</Button>
+                                <Button className='sign_up_button' variant="success">Sign Up Now</Button>
                             </Card.Body>
                         </Card>
 
-                        <img className='site' src={site} alt="" />
+                        {/* <img className='site' src={site} alt="" /> */}
 
 
-                        <Card className='card col-md-4' style={{ width: '18rem' }}>
-                            <Card.Img className='card_icons' variant="top" src={ratings} />
-                            <Card.Body className='card_body'>
+                        <Card className='card' style={{ width: '25rem' }}>
+                            <Card.Img className='Join_the_team' variant="top" src={ratings} />
+                            <Card.Body className='card_containe'>
                                 <Card.Title className='first-text'>Start making more sales</Card.Title>
                                 <Card.Text className='text'>
                                     Sit back, relax and watch your business thrive.
@@ -244,7 +244,7 @@ const BecomeaCook = () => {
                                 </Card.Text>
                             </Card.Body>
                             <div className="button_container">
-                                <Button className='more_button' variant="primary">Join the Team</Button>
+                                <Button className='more_button' variant="success">Join the Team</Button>
                             </div>
                         </Card>
 
@@ -260,7 +260,7 @@ const BecomeaCook = () => {
                                 </Card.Text>
                             </Card.Body>
                             <div className="button_container">
-                                <Button className='more_button' variant="primary">Join the Team</Button>
+                                <Button className='more_button' variant="success">Join the Team</Button>
                             </div>
 
                         </Card>
@@ -277,7 +277,7 @@ const BecomeaCook = () => {
                                 </Card.Text>
                             </Card.Body>
                             <div className="button_container">
-                                <Button className='more_button' variant="primary">Join the Team</Button>
+                                <Button className='more_button' variant="success">Join the Team</Button>
                             </div>
                         </Card>
                     </div>

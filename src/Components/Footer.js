@@ -6,20 +6,22 @@ import Playstore from "../Assets/play_store.png"
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <div className="footer-section">
-        <div className="kitchly-logo-section" style={{ width: '25rem' }}>
-          <img className='Logo' src={Logo} alt="" />
+      <div className="footer-section row">
+        <div className="kitchly-logo-section col-md-4" style={{ width: '25rem' }}> 
+        <div className="logo_box">
+        <img className='logo' src={Logo} alt="" />
+        </div>
 
           <p>
             Order your favorite food to your doorstep from kitchens in you neighborhood with the Kitchly service.
           </p>
 
-          <div className="download-app-btn">
-            <div className="row">
-              <div className="col-md-6">
+          <div className="">
+            <div className="download-app-btn">
+              <div className="apple_playstore">
                 <img src={Apple} alt="" />
               </div>
-              <div className="col-md-6">
+              <div className="apple_playstore">
               <img src={Playstore} alt="" />
               </div>
             </div>
@@ -30,14 +32,14 @@ const Footer = () => {
 
 
 
-        <div className="about-section" style={{ width: '25rem' }}>
+        <div className="about-section col-md-4" style={{ width: '25rem' }}>
           <h2>About Us</h2>
           <p>Privacy Policy</p>
         </div>
 
 
 
-        <div className="cook-earn-section" style={{ width: '25rem' }}>
+        <div className="cook-earn-section col-md-4" style={{ width: '25rem' }}>
           <h2>Cook and earn now!</h2>
           <p>Use the link below to see how to open your kitchen account</p>
         </div>

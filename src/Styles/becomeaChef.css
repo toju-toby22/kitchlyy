@@ -16,6 +16,12 @@
     object-fit: cover;
 }
 
+.cooking{
+    height: 500px;
+    object-position: center;
+    object-fit: cover;
+}
+
 .form_header{
     font-weight: bold;
 }
@@ -42,7 +48,7 @@
 }
 
 .benefits_header{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
     font-weight: bolder;
@@ -58,6 +64,8 @@
     justify-content: space-around;
     align-items: center;
     /* flex-wrap: wrap; */
+    gap: 20px;
+
 }
 
 

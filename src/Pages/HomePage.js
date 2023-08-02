@@ -30,26 +30,30 @@ const HomePage = () => {
                                 <h2 className="connecting_food">
                                     Home-Made Meals delivered to your doorstep.
                                 </h2>
-                                <p className='sub-text'>
-                                    Order home-made meals from verified Cooks around your community and get it delivered to you. Are you feeding a large family or just for you. Just tell us your cravings, we will cook it and get it delivered to you. We believe the best meals are cooked in our local kitchens.                        </p>
-
-                                <div className="download-btn">
-                                    <div className="row">
-                                        <div className="col-lg-6 col-sm-6"> 
-                                            <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img src={Apple} alt="" /></a>
-
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6">
-                                            <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img src={Playstore} alt="" /></a>
-
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+
                         <div className="col-md-6">
                             <div className="food-images">
                                 <img className='food-plate' src={Food} alt="" />
+                            </div>
+                        </div>
+
+                        <div className="col-md-6">
+                            <p className='sub-text'>
+                                Order home-made meals from verified Cooks around your community and get
+                                it delivered to you. Are you feeding a large family or just for you.
+                                Just tell us your cravings, we will cook it and get it delivered to you.
+                                We believe the best meals are cooked in our local kitchens.
+                            </p>
+
+                            <div className="download-btn">
+                                <div className="row">
+                                    <div className="download col-sm-6">
+                                        <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img src={Apple} alt="" /></a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img src={Playstore} alt="" /></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

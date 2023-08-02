@@ -16,6 +16,7 @@
     width: 50%;
 } */
 
+
 .kitchly-logo-section p{
     margin-top: 20px;
     /* width: 20vw; */
@@ -23,17 +24,28 @@
 .about-section{
     text-align: center;
 }
-.download-app-btn img{
+.apple_playstore img{
     height: 2rem;
 }
-
+.download-app-btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
 
 @media screen and (max-width: 576px) {
-        .download-app-btn{
-            display: flex;
-            justify-content: space-evenly;
-            margin-top: 20px;
-        }
+
+    .logo_box{
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        height: 50px;
+    }
+
+    .apple_playstore img{
+        height: 5rem;
+    }
 
         .about-section{
             margin-top: 30px;
