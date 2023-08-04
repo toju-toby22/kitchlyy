@@ -47,14 +47,14 @@ const HomePage = () => {
                                 We believe the best meals are cooked in our local kitchens.
                             </p>
 
-                            <div className="download-btn">
-                                <div className="row">
-                                    <div className="download col-sm-6">
+                            {/* <div className="download-btn">
+                                <div className="">
+                                    <div className="download ">
                                         <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img src={Apple} alt="" /></a>
                                         <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img src={Playstore} alt="" /></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const HomePage = () => {
 
                 <div className="first_section">
                     <div className="food-images">
-                        <img className="image" src={phone} alt="" />
+                        <img className="image order_food_image" src={phone} alt="" />
                     </div>
 
                     <div className="description">
@@ -151,59 +151,58 @@ const HomePage = () => {
                         <Button className='order-food-online-button' variant="outline-secondary">Learn More</Button>{' '}
                     </div>
 
-                    <div >
-                        <img className="image" src={deliver} alt="" />
+                    <div className="food-images">
+                        <img className="image order_food_image" src={deliver} alt="" />
                     </div>
 
 
                 </div>
-                <div className="app_section">
-                    <div className='row'>
-                        <div className="col-md-6">
-                            <div className="food-pickup">
-                                <img className="" src={pickup} alt="" />
+              
+
+
+
+                <div className="first_section">
+                    <div className="food-images">
+                        <img className="image order_food_image" src={pickup} alt="" />
+                    </div>
+
+                    <div className="description">
+                        <h2 className="title">
+                            Order food from kitchen closest to you.
+                        </h2>
+
+                        <div className="list">
+                            <span>
+                                <p className='number'>1</p>
+                            </span>
+                            <div>
+                                <h5>Order food from kitchen closest to you.</h5>
+                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <div className="description">
-                                <h2 className="title">
-                                    Pickup, Eat-in or Delivery
-                                </h2>
 
-                                <div className="list">
-                                    <span>
-                                        <p className='number'>1</p>
-                                    </span>
-                                    <div>
-                                        <h5>Order food from kitchen closest to you.</h5>
-                                        <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
-                                    </div>
-                                </div>
-
-                                <div className="list">
-                                    <span>
-                                        <p className='number'>2</p>
-                                    </span>
-                                    <div>
-                                        <h5>Order food from kitchen closest to you.</h5>
-                                        <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
-                                    </div>
-                                </div>
-
-
-                                <div className="list">
-                                    <span>
-                                        <p className='number'>3</p>
-                                    </span>
-                                    <div>
-                                        <h5>Order food from kitchen closest to you.</h5>
-                                        <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
-                                    </div>
-                                </div>
-
-                                <Button variant="outline-secondary">Learn More</Button>{' '}
+                        <div className="list">
+                            <span>
+                                <p className='number'>2</p>
+                            </span>
+                            <div>
+                                <h5>Order food from kitchen closest to you.</h5>
+                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
                             </div>
                         </div>
+
+
+                        <div className="list">
+                            <span>
+                                <p className='number'>3</p>
+                            </span>
+                            <div>
+                                <h5>Order food from kitchen closest to you.</h5>
+                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                            </div>
+                        </div>
+
+                        <Button variant="outline-secondary">Learn More</Button>{' '}
                     </div>
                 </div>
 

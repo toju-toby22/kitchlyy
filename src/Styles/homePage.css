@@ -38,10 +38,10 @@
 .download-btn{
     margin-top: 50px;
 }
-.download-btn img{
+/* .download-btn img{
     width: 200px;
     object-fit: contain;
-}
+} */
 
 
 
@@ -56,7 +56,7 @@
     margin-top: 140px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     gap: 20px;
     align-items: center;
     /* padding: 20px; */
@@ -67,7 +67,14 @@
 }
 
 .image{
-    height: 600px;
+    /* height: 600px; */
+}
+
+.order_food_image{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .title{
@@ -255,6 +262,7 @@
         /* gap: 20px; */
         align-items: center;
         padding: 20px;
+        /* justify-content: space-evenly; */
     }
 
 

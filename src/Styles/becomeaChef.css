@@ -11,15 +11,15 @@
     width: 30vw;
 }
 .Join_the_team{
-    height: 400px;
-    object-position: center;
+    height: 300px;
+    object-position: top;
     object-fit: cover;
 }
 
 .cooking{
-    height: 388px;
-    object-position: center;
-    object-fit: fill;
+    height: 300px;
+    object-position: top;
+    object-fit: cover;
     /* width: 20rem; */
 }
 
@@ -174,8 +174,8 @@
     }
     .home-chef{
         margin-top: 30px;
-        height: 260px;
-        width: max-content;
+        height: 250px;
+        /* width: min-content; */
     }
 
     .site{
@@ -196,7 +196,7 @@
   }
 /* For small devices */
 @media screen and (max-width: 360px) {
-    .home-chef{
+    /* .home-chef{
         height: 220px;
-    }
+    } */
 }

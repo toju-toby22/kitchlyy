@@ -25,8 +25,8 @@ const BecomeaCook = () => {
         <div>
             <NavigationBar />
             <div className="container">
-                <div className="signup-form">
-                    <div className="form">
+                <div className="signup-form row">
+                    <div className="form col-md-7">
                         <h2 className='form_header'>Cook and Earn from your kitchen</h2>
                         <p>Kitchly-kitchen is an app for everyone who love to cook and can cook good meals.
                             With kitchly kitchens you can cook from the comfort of your kitchen
@@ -53,7 +53,7 @@ const BecomeaCook = () => {
                     </div>
 
 
-                    <div className='signup_image'>
+                    <div className='signup_image col-md-7'>
                         <img className='home-chef' src={Homechef} alt="" />
                     </div>
 
@@ -120,8 +120,8 @@ const BecomeaCook = () => {
                         <h1 className='benefits_header'>Starting with Kitchly Kitchen is easy</h1>
                     </div>
 
-                    <div className="benefits__section">
-                        <Card className='card' style={{ width: '20rem' }}>
+                    <div className="benefits__section row">
+                        <Card className='card col-md-7' style={{ width: '20rem' }}>
                             <Card.Img className='Join_the_team' variant="top" src={signicon} />
                             <Card.Body className='card_container'>
                                 <Card.Title className='first-text'>Sign up for free</Card.Title>
@@ -136,7 +136,7 @@ const BecomeaCook = () => {
                         {/* <img className='site' src={site} alt="" /> */}
 
 
-                        <Card className='card' style={{ width: '20rem' }}>
+                        <Card className='card col-md-7' style={{ width: '20rem' }}>
                             <Card.Img className='cooking' variant="top" src={homeicon} />
                             <Card.Body className='card_container'>
                                 <Card.Title className='first-text'>We set up your profile</Card.Title>
@@ -150,7 +150,7 @@ const BecomeaCook = () => {
                         {/* <img className='site' src={site} alt="" /> */}
 
 
-                        <Card className='card' style={{ width: '20rem' }}>
+                        <Card className='card col-md-7' style={{ width: '20rem' }}>
                             <Card.Img className='Join_the_team' variant="top" src={ratings} />
                             <Card.Body className='card_container'>
                                 <Card.Title className='first-text'>Start making more sales</Card.Title>
@@ -234,7 +234,7 @@ const BecomeaCook = () => {
 
                     
                     <div className="more">
-                        <Card className='card' style={{ width: '25rem' }}>
+                        <Card className='card ' style={{ width: '25rem' }}>
                             <Card.Img className='Join_the_team' variant="top" src={bike} />
                             <Card.Body className="card_container">
                                 <Card.Title className="first-text">Sign up as a Kitchly Kitchen logistic!</Card.Title>
@@ -268,7 +268,7 @@ const BecomeaCook = () => {
 
 
 
-                        <Card className='card' style={{ width: '25rem' }}>
+                        <Card className='card ' style={{ width: '25rem' }}>
                             <Card.Img className='Join_the_team' variant="top" src={team} />
                             <Card.Body className="card_container">
                                 <Card.Title className="first-text" >Join the team</Card.Title>
@@ -282,9 +282,7 @@ const BecomeaCook = () => {
                         </Card>
                     </div>
                 </div>
-
-
-            </div>
+         </div>
             <Footer />
         </div>
     )
