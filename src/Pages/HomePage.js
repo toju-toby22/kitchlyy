@@ -47,14 +47,14 @@ const HomePage = () => {
                                 We believe the best meals are cooked in our local kitchens.
                             </p>
 
-                            {/* <div className="download-btn">
+                            <div className="download-btn">
                                 <div className="">
                                     <div className="download ">
                                         <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img src={Apple} alt="" /></a>
                                         <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img src={Playstore} alt="" /></a>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

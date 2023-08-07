@@ -249,6 +249,8 @@
 
     .download-btn{
         display: flex;
+        margin: 20 auto;
+        justify-content: center;
     }
 
 
