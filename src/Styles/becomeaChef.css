@@ -185,7 +185,9 @@
             height: 1rem;
     }
     
-    
+    .second_section{
+        flex-direction: column-reverse;
+    }
 .benefits__section{
     flex-wrap: wrap;
 }

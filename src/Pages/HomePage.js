@@ -16,6 +16,8 @@ import { BsChevronCompactDown } from 'react-icons/bs';
 import Footer from '../Components/Footer'
 import Accordion from 'react-bootstrap/Accordion';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col'
 
 const HomePage = () => {
     return (
@@ -47,14 +49,13 @@ const HomePage = () => {
                                 We believe the best meals are cooked in our local kitchens.
                             </p>
 
-                            <div className="download-btn">
-                                <div className="">
-                                    <div className="download ">
-                                        <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img src={Apple} alt="" /></a>
-                                        <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img src={Playstore} alt="" /></a>
+                           
+                                
+                                    <div className="download">
+                                        <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img className='playstore_apple' src={Apple} alt="" /></a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img className='playstore_apple' src={Playstore} alt="" /></a>
                                     </div>
-                                </div>
-                            </div>
+                     
                         </div>
                     </div>
                 </div>
@@ -109,10 +110,10 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className="first_section">
+                <div className="first_section second_section row ">
 
 
-                    <div className="description">
+                    <Col className="description" xs>
                         <h2 className="title">
                             Fast delivery because of our large network of kitchens.
                         </h2>
@@ -149,11 +150,11 @@ const HomePage = () => {
                         </div>
 
                         <Button className='order-food-online-button' variant="outline-secondary">Learn More</Button>{' '}
-                    </div>
+                    </Col>
 
-                    <div className="food-images">
+                    <Col className="food-images" xs={{ order: 'first' }} md={{ order: 'last'}}>
                         <img className="image order_food_image" src={deliver} alt="" />
-                    </div>
+                    </Col>
 
 
                 </div>

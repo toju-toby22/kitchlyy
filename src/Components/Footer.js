@@ -12,7 +12,7 @@ const Footer = () => {
         <img className='logo' src={Logo} alt="" />
         </div>
 
-          <p>
+          <p className='footer-text'> 
             Order your favorite food to your doorstep from kitchens in you neighborhood with the Kitchly service.
           </p>
 

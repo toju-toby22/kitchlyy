@@ -34,11 +34,14 @@
 .download{
     display: flex;
     gap: 20px;
-}
-.download-btn{
+    justify-content: space-evenly;
+    width: 100%;
     margin-top: 50px;
+
+
 }
-.download img{
+
+.playstore_apple{
     width: 200px;
     object-fit: contain;
 }
@@ -242,15 +245,16 @@
         width: 100%;
     }
     
-    .download-btn img{
+    .playstore_apple{
        height: 40px;
        /* margin: auto; */
     }
 
     .download-btn{
         display: flex;
-        margin: 20 auto;
+        /* margin: 20 auto; */
         justify-content: center;
+        width: 50%;
     }
 
 

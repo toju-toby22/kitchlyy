@@ -57,4 +57,9 @@
         .about-section{
             margin-top: 30px;
         }
+
+        .footer-text,
+        .cook-earn-section{
+            text-align: center;
+        }
   }
