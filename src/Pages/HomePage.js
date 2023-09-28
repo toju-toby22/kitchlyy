@@ -149,7 +149,7 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <Button className='order-food-online-button' variant="outline-secondary">Learn More</Button>{' '}
+                        <Button variant="outline-success px-5 py-3" >Download App</Button>{' '}
                     </Col>
 
                     <Col className="food-images" xs={{ order: 'first' }} md={{ order: 'last'}}>
@@ -169,41 +169,24 @@ const HomePage = () => {
 
                     <div className="description">
                         <h2 className="title">
-                            Order food from kitchen closest to you.
+                        Family Meal time is possible
                         </h2>
 
                         <div className="list">
-                            <span>
-                                <p className='number'>1</p>
-                            </span>
+                            
                             <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                                 <p>Kitchly makes family meal time possible, our cooks are also people with family and know how a family meal time is important for the bonding of a home. .</p>
+                                 <p>Our meals are prepared with family in mind, whether it's just you and want to connect with home again, is it a family of 3 or a family of 18 like ours, we have you covered. what if it is a family reunion or friends get together with a touch of home, kitchly is there for you. Life can be demanding, but it shouldn’t be your meal time.</p>
+                                 <p>We Deliver homemade meals, so you can spend more quality time with family and friends. 
+                                    We at Kitchly look forward to serving you in your next family meal time.</p>
                             </div>
                         </div>
 
-                        <div className="list">
-                            <span>
-                                <p className='number'>2</p>
-                            </span>
-                            <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
-                            </div>
-                        </div>
+                        
 
 
-                        <div className="list">
-                            <span>
-                                <p className='number'>3</p>
-                            </span>
-                            <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
-                            </div>
-                        </div>
-
-                        <Button variant="outline-secondary">Learn More</Button>{' '}
+                        
+                        {/* <Button variant="outline-secondary">Learn More</Button>{' '} */}
                     </div>
                 </div>
 
