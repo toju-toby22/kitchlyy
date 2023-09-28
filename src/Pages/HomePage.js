@@ -72,7 +72,7 @@ const HomePage = () => {
 
                     <div className="description">
                         <h2 className="title">
-                            Order food from kitchen closest to you.
+                            How It Works
                         </h2>
 
                         <div className="list">
@@ -80,8 +80,8 @@ const HomePage = () => {
                                 <p className='number'>1</p>
                             </span>
                             <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                                <h5>Place order from a world of Homemade Flavours.</h5>
+                                <p>Select a Kitchen, view the menu, place an order for your desired meal, Choose time for delivery and delivery price, sit back and relax.</p>
                             </div>
                         </div>
 
@@ -90,8 +90,8 @@ const HomePage = () => {
                                 <p className='number'>2</p>
                             </span>
                             <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                                <h5>Order is Received and Prepared by Verified Cook.</h5>
+                                <p>Get real time updates on progress of meal preparation through the app and email notifications.</p>
                             </div>
                         </div>
 
@@ -101,12 +101,12 @@ const HomePage = () => {
                                 <p className='number'>3</p>
                             </span>
                             <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                                <h5>Order delivered to you by a Delivery Partner .</h5>
+                                <p>Choose how you want your order to be delivered to you based on your preferences from kitchens closest to you.</p>
                             </div>
                         </div>
 
-                        <Button variant="outline-secondary">Learn More</Button>{' '}
+                        <Button variant="outline-success px-5 py-3" >Download App</Button>{' '}
                     </div>
                 </div>
 
