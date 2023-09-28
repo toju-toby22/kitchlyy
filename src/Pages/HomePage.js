@@ -80,8 +80,8 @@ const HomePage = () => {
                                 <p className='number'>1</p>
                             </span>
                             <div>
-                                <h5><b>Place order from a world of Homemade Flavours.</b></h5>
-                                <p>Select a Kitchen, view the menu, place an order for your desired meal, Choose time for delivery and delivery price, sit back and relax.</p>
+                                <h5><b>Place order on Kitchly</b></h5>
+                                <p>Have access to a variety of homemade meals. Select a Kitchen, view the menu, place an order for your desired meal, Choose time for delivery and delivery type, sit back and relax.</p>
                             </div>
                         </div>
 
@@ -90,8 +90,8 @@ const HomePage = () => {
                                 <p className='number'>2</p>
                             </span>
                             <div>
-                                <h5><b>Order is Received and Prepared by Verified Cook</b></h5>
-                                <p>Orders are made at least a day in advance so cooks have enough time to prepare your meals....Get real time updates on progress of meal preparation through the app and email notifications.</p>
+                                <h5><b>Order is Received and Prepared by Verified Cook.</b></h5>
+                                <p>Orders are made at least a day in advance so cooks have enough time to prepare your meals. Get real time updates on progress of meal preparation through the app and email notifications.</p>
                             </div>
                         </div>
 
@@ -101,8 +101,8 @@ const HomePage = () => {
                                 <p className='number'>3</p>
                             </span>
                             <div>
-                                <h5><b>Enjoy your Homamde Meal.</b></h5>
-                                <p>Meals can be picked up, or deliverd to you by a delivery partner based on your preferences, from kitchens closest to you.</p>
+                                <h5><b>Enjoy your Homemade Meal.</b></h5>
+                                <p>Meals can be picked up, or delivered to you by a delivery partner based on your preferences from the kitchens.</p>
                             </div>
                         </div>
 
@@ -115,7 +115,7 @@ const HomePage = () => {
 
                     <Col className="description" xs>
                         <h2 className="title">
-                            Fast delivery because of our large network of kitchens.
+                        Plan your Meals, Eat Healthy Homemade Meals
                         </h2>
 
                         <div className="list">
@@ -123,8 +123,8 @@ const HomePage = () => {
                                 <p className='number'>1</p>
                             </span>
                             <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                                <h5><b>Plan your Day and your Meals</b></h5>
+                                <p>We know how busy your day can be, but if it is planned it can be a lot easier. Plan your meal and have what to eat when you need to, this helps you spend less and eat healthier. </p>
                             </div>
                         </div>
 
@@ -133,8 +133,8 @@ const HomePage = () => {
                                 <p className='number'>2</p>
                             </span>
                             <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                                <h5><b>Itemize meals for the week</b></h5>
+                                <p>What will you like to eat this week, get it properly planned out, don’t rush we can wait, get order placed on Kitchly from verified cooks and kitchen with variety of homemade meals and cuisine types, and get your meals homemade specially for you</p>
                             </div>
                         </div>
 
@@ -144,8 +144,8 @@ const HomePage = () => {
                                 <p className='number'>3</p>
                             </span>
                             <div>
-                                <h5>Order food from kitchen closest to you.</h5>
-                                <p>Choose how you want your order to be delivered to you from kitchens closest to you.</p>
+                                <h5><b>Get your Meals delivered to you </b></h5>
+                                <p>Your meals are delivered in minimum of 24 hours depending on the size and type of meals you order. This gives us time to shop and prepare your meal, our cooks always work to give you the best meals, as every meal is prepared specially for you.</p>
                             </div>
                         </div>
 
