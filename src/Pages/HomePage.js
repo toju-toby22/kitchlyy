@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react';
 import NavigationBar from '../Components/Navbar'
 import Food from "../Assets/ui_background_kitchly.png"
 import "../Styles/homePage.css"
@@ -8,6 +9,7 @@ import phone from "../Assets/phone.png"
 import deliver from "../Assets/Download our 1 (1).png"
 import pickup from "../Assets/pickup.png"
 import phone2 from "../Assets/phone_2.png"
+
 
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -19,46 +21,55 @@ import Accordion from 'react-bootstrap/Accordion';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 
-const HomePage = () => {
+function HomePage() {
+
+    const [email, setEmail] = useState("")
+
+    const onChangeHandler = event => {
+        setEmail(event.target.value);
+    };
+
+    const clickHere = () => {
+        if (email === "") {
+            alert("Please Enter Your Email Address To Place Order")
+        } else {
+            fetch("https://api.apispreadsheets.com/data/CGsXSSJMuyYRFrGm/", {
+                method: "POST",
+                body: JSON.stringify({ "data": { "EMAIL": email } }),
+            }).then(res => {
+                if (res.status === 201) {
+                    window.location.replace("https://kitchly.co/cook/download")
+                }
+                else {
+                    window.location.replace("https://kitchly.co/cook/download")
+                }
+            })
+        }
+    }
     return (
         <div>
             <NavigationBar />
 
-            <div className="container">
-                <div className="banner">
-                    <div className="row">
-                        <div className="col-md-6 ">
-                            <div className="header-text">
-                                <h2 className="connecting_food">
-                                    Home-Made Meals delivered to your doorstep.
-                                </h2>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6">
-                            <div className="food-images">
-                                <img className='food-plate' src={Food} alt="" />
-                            </div>
-                        </div>
-
-                        <div className="col-md-6">
-                            <p className='sub-text'>
-                                Order home-made meals from verified Cooks around your community and get
-                                it delivered to you. Are you feeding a large family or just for you.
-                                Just tell us your cravings, we will cook it and get it delivered to you.
-                                We believe the best meals are cooked in our local kitchens.
-                            </p>
-
-                           
-                                
-                                    <div className="download">
-                                        <a href="https://apps.apple.com/ng/app/kitchly-kitchen/id6449434443"><img className='playstore_apple' src={Apple} alt="" /></a>
-                                        <a href="https://play.google.com/store/apps/details?id=com.kitchly&pli=1"><img className='playstore_apple' src={Playstore} alt="" /></a>
-                                    </div>
-                     
+            <div className='top-banner'>
+                <div className="inner-banner">
+                    <div className="header-text">
+                        <h2 className="connecting_food">
+                            The Meals You Love <br />Prepared Just For You.
+                        </h2>
+                        {/* <p className='inner-text'>
+                                Enjoy the flavor of home cooked meals from verified Cooks around your community. Order now and let the irresistible goodness come straight to your door step.
+                                We do not just deliver meals, <i><b className="taste">we deliver a taste of home</b></i>.
+                            </p> */}
+                        <div className="top-btn">
+                            <input type="text" id="email" className='emailTxt ' name='email' value={email} onChange={onChangeHandler} placeholder='Enter your Email to place order' />
+                            <button className='submit-button   ' target='_blank' href="https://kitchly.co/cook/download" onClick={clickHere} ><b>Place Order</b></button>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="container">
+
 
 
 
@@ -106,7 +117,7 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <Button variant="outline-success px-5 py-3" >Download App</Button>{' '}
+                        <a className='btn btn-outline-success px-5 py-3' target='_blank' href="https://kitchly.co/cook/download">Download App</a>
                     </div>
                 </div>
 
@@ -115,7 +126,7 @@ const HomePage = () => {
 
                     <Col className="description" xs>
                         <h2 className="title">
-                        Plan your Meals, Eat Healthy Homemade Meals
+                            Plan your Meals, Eat Healthy Homemade Meals
                         </h2>
 
                         <div className="list">
@@ -149,16 +160,16 @@ const HomePage = () => {
                             </div>
                         </div>
 
-                        <Button variant="outline-success px-5 py-3" >Download App</Button>{' '}
+                        <a className='btn btn-outline-success px-5 py-3' target='_blank' href="https://kitchly.co/cook/download">Place your order</a>
                     </Col>
 
-                    <Col className="food-images" xs={{ order: 'first' }} md={{ order: 'last'}}>
+                    <Col className="food-images" xs={{ order: 'first' }} md={{ order: 'last' }}>
                         <img className="image order_food_image" src={deliver} alt="" />
                     </Col>
 
 
                 </div>
-              
+
 
 
 
@@ -169,23 +180,21 @@ const HomePage = () => {
 
                     <div className="description">
                         <h2 className="title">
-                        Family Meal time is possible
+                            Family Meal time is possible
                         </h2>
 
                         <div className="list">
-                            
+
                             <div>
-                                 <p>Kitchly makes family meal time possible, our cooks are also people with family and know how a family meal time is important for the bonding of a home. .</p>
-                                 <p>Our meals are prepared with family in mind, whether it's just you and want to connect with home again, is it a family of 3 or a family of 18 like ours, we have you covered. what if it is a family reunion or friends get together with a touch of home, kitchly is there for you. Life can be demanding, but it shouldn’t be your meal time.</p>
-                                 <p>We Deliver homemade meals, so you can spend more quality time with family and friends. 
+                                <p>Kitchly makes family meal time possible, our cooks are also people with family and know how a family meal time is important for the bonding of a home. .</p>
+                                <p>Our meals are prepared with family in mind, whether it's just you and want to connect with home again, is it a family of 3 or a family of 18 like ours, we have you covered. what if it is a family reunion or friends get together with a touch of home, kitchly is there for you. Life can be demanding, but it shouldn’t be your meal time.</p>
+                                <p>We Deliver homemade meals, so you can spend more quality time with family and friends.
                                     We at Kitchly look forward to serving you in your next family meal time.</p>
                             </div>
                         </div>
 
-                        
 
 
-                        
                         {/* <Button variant="outline-secondary">Learn More</Button>{' '} */}
                     </div>
                 </div>
@@ -207,29 +216,18 @@ const HomePage = () => {
 
                     <Accordion defaultActiveKey="0">
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header>Can I order Takeaway food with the app ?</Accordion.Header>
+                            <Accordion.Header>How long does it take to get my food ?</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                It take minimum of 24 Hours for your food to be delivered to you....Since Kitchly is a pre-ordering system and the Cooks on the platform focus on healthy Homemade meals, due to this fact, every meals has to
+                                be well prepared in advance.
                             </Accordion.Body>
                         </Accordion.Item>
 
 
                         <Accordion.Item eventKey="1">
-                            <Accordion.Header>How can I find delivery restaurants near me?</Accordion.Header>
+                            <Accordion.Header>How can i make an order?</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                Open the Kitchly App, click on the green top of the app, you will see a page with all the various districts in your state, Select the one you are currently located and all the kitchens in your area will show up.
                             </Accordion.Body>
                         </Accordion.Item>
 
@@ -239,44 +237,27 @@ const HomePage = () => {
                         <Accordion.Item eventKey="2">
                             <Accordion.Header>Can I order from multiple restaurants at once?</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                No You Can not order from two kitchens at the same time. Each order has to be made individually from each kitchen. Incase a kitchen does not offer all your request, you can Place the order for what they offer and make another order from another kitchen.
                             </Accordion.Body>
                         </Accordion.Item>
 
 
                         <Accordion.Item eventKey="3">
-                            <Accordion.Header>Are there any promotions on food delivery?</Accordion.Header>
+                            <Accordion.Header>Can i pay on delivery?</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                No you cannot pay on delivery. Each order takes different Kitchly partners to fulfill, due to this fact every payment has to be made once the order is placed. If the order was not accepted by the kitchen, Your money will be reverted back to your Kitchly Wallet.
                             </Accordion.Body>
                         </Accordion.Item>
-
-
 
                         <Accordion.Item eventKey="4">
-                            <Accordion.Header>How long do deliveries take?</Accordion.Header>
+                            <Accordion.Header>Can i withdraw from my kitchly wallet?</Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum.
+                                Yes you can withdraw from your kitchly wallet. If you have not set your bank account and withdrawal pin, you will be required to do so before withdrawals can be processed.
                             </Accordion.Body>
                         </Accordion.Item>
+
+
+
                     </Accordion>
 
 
@@ -288,13 +269,11 @@ const HomePage = () => {
             <div className="second_banner">
                 <div className="second_header-text">
                     <h2 className="connecting_food">
-                        Order your home cooked Food and feel at home
+                        Order your healthy home cooked meal and feel at home
                     </h2>
 
                     <p className='sub-tex'>
-                        Scan the QR code with your phone camera
-                        to download the Kitchly kitchen Food app.
-                        Available for iOS and Android devices.
+                        <a className='btn btn-outline-light px-5 py-3' target='_blank' href="https://kitchly.co/cook/download">Add to Cart Now </a>
                     </p>
 
                 </div>

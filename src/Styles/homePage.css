@@ -2,6 +2,29 @@
     padding: 50px;
 } */
 
+
+.top-banner{
+    width: 100%;
+    margin-top: 60px;
+    height: 80vh;
+    background-image: url('../Assets/pickup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+}
+
+.inner-banner{
+    width: 45%;
+    height: 35vh;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+}
+
 .food-plate{
     width: 100%;
     object-fit: contain;
@@ -11,8 +34,47 @@
 /* .food-images{
     width: 40vw;
 } */
-.header-text{
-    width: 40vw;
+.inner-banner .connecting_food{
+    text-align: center;
+    font-size: 40px !important;
+    font-weight: 800;
+    margin: auto;
+
+}
+.inner-banner .inner-text{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.inner-banner .top-btn{
+    margin-top: 20px;
+    text-align: center; 
+   
+    
+}
+.inner-banner  .emailTxt{
+    width: 60%;
+    outline: none;
+    border: 1px solid #eaeaea;
+    
+    padding: 14px 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.inner-banner  .submit-button{
+    width: 30%;
+    padding: 15px 40px;
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.taste{
+    font-size: 16px;
+    font-weight: 900;
 }
 
 
@@ -23,10 +85,7 @@
     margin-top: 130px;
     width: 100%;
 }
-.connecting_food{
-    font-size: 65px;
-    font-weight: 600 !important;
-}
+
 .sub-text{
     margin-top: 50px;
 }
@@ -191,7 +250,43 @@
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-
+    .top-banner{
+        width: 100%;
+        margin-top: 40px;
+        height: 100vh;
+    }
+    .inner-banner{
+        width: 80%;
+        padding: 20px;
+        height: auto !important;
+    }
+    .inner-banner .connecting_food{
+        text-align: center;
+        font-size: 30px !important;
+        font-weight: 800;
+        margin: auto;
+    
+    }
+    
+    .inner-banner  .emailTxt{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 14px 20px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .inner-banner  .submit-button{
+        width: 100%;
+        padding: 15px 40px;
+        color: white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
     .food-plate{
         height: 400px;
         object-fit: contain;

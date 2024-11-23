@@ -7,6 +7,7 @@ import restaurants from "../Assets/resturant.png"
 import doublephone from "../Assets/double-phone.png"
 import dish1 from "../Assets/dish1.png"
 import dishes2 from "../Assets/dishes2.png"
+import african1 from "../Assets/african1.png"
 
 import about_1 from "../Assets/about_2.png"
 import about_3 from "../Assets/about_1.png"
@@ -29,7 +30,7 @@ const About = () => {
 
                     <div className="header-text col-md-5">
                         <h3 className="best-foods ">
-                            Best foods are cooked in our local kitchens in local ways.
+                            The Best foods are cooked in our local kitchens in local ways.
                         </h3>
 
                     </div>
@@ -72,22 +73,14 @@ const About = () => {
                     </div>
 
                 </div>
+            </div>
 
-                <div className="banner main-focus row">
-
-                    <div className="food-images col-md-5">
-                        <img className='doublephone' src={about_4} alt="" />
-                    </div>
-
-
-                    <div className="header-text col-md-7">
-                        <h3 className="best-foods ">
-                            “No restaurant or hotel can bring you Grandma’s recipe, but the local Kitchens can!”
-                        </h3>
-
-                    </div>
-
-                </div>
+            <div className="banner-about">
+                <h3 className="best-foods ">
+                    “No restaurant or hotel can bring you <br />Grandma’s recipe, but our Kitchly Cooks can!”
+                </h3>
+            </div>
+            <div className='container about_us'>
 
 
                 <div className="banner main-focus row">
@@ -106,7 +99,7 @@ const About = () => {
 
 
                     <div className="col-md-5">
-                    <p className='sub-text'>
+                        <p className='sub-text'>
                             We are empowering 80% of women who can cook quality meals,
                             get it delivered and earn from the comfort of their home, bringing economic diversity.
                         </p>
@@ -146,7 +139,7 @@ const About = () => {
 
 
 
-            </div> 
+            </div>
 
 
 

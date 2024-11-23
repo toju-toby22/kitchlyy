@@ -27,9 +27,9 @@ const BecomeaCook = () => {
             <div className="container">
                 <div className="signup-form row">
                     <div className="form col-md-7">
-                        <h2 className='form_header'>Cook and Earn from your kitchen</h2>
+                        <h1 className='form_header'>Cook And Earn From Your Kitchen</h1>
                         <p>Kitchly-kitchen is an app for everyone who love to cook and can cook good meals.
-                            With kitchly kitchens you can cook from the comfort of your kitchen
+                            With Kitchly kitchens you can cook from the comfort of your kitchen
                             and make extra income by delivering to customers close to you.</p>
 
                         <Form>
@@ -40,9 +40,8 @@ const BecomeaCook = () => {
                             <Form.Group className="mb-3" controlId="formBasicPassword">
                                 <Form.Control type="email" placeholder="email@business.com" />
                             </Form.Group>
-                            <Button className='submit-button' variant="success" type="submit">
-                                Sign Up
-                            </Button>
+                            <a className='submit-button btn btn-success px-5 py-3' target='_blank' href="https://kitchly.co/kitchen/download">Sign Up Now</a>
+
                         </Form>
 
 
@@ -91,7 +90,7 @@ const BecomeaCook = () => {
                                 </Card.Text>
                             </Card.Body>
 
-                                <Button className='sign_up_button' variant="success">Sign Up Now</Button>
+                            <a className='submit-button btn btn-success px-5 py-3' target='_blank' href="https://kitchly.co/kitchen/download">List Your Kitchen</a>
 
                         </Card>
 
@@ -143,7 +142,8 @@ const BecomeaCook = () => {
                                 <Card.Text className='card_container'>
                                     We'll add your menu and desired working hours to the app for you.
                                 </Card.Text>
-                                <Button className='sign_up_button' variant="success">Sign Up Now</Button>
+                                <a className='submit-button btn btn-success px-5 py-3' target='_blank' href="https://kitchly.co/kitchen/download">Sign Up Now</a>
+
                             </Card.Body>
                         </Card>
 
@@ -167,7 +167,7 @@ const BecomeaCook = () => {
 
                 <div>
                     <div>
-                        <h1 className='benefits_header'>FAQ</h1>
+                        <h1 className='benefits_header'>Frequently Asked Questions</h1>
                     </div>
 
 
@@ -176,29 +176,26 @@ const BecomeaCook = () => {
 
                         <Accordion>
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>How long does it take to sign up as a Kitchly Kitchen  partner restaurant?</Accordion.Header>
-                                <Accordion.Body>
-                                    This depends on your location and the number of premises.
-                                    Once you complete the sign-up form, our team will be in contact to get you set up.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="1">
                                 <Accordion.Header>What do I need to get started?</Accordion.Header>
                                 <Accordion.Body>
-                                    There's no joining fee. If you need us to supply a tablet,
-                                    there will be some extra cost. In this case,
-                                    a small fee will be deducted from each food order until the total amount is paid off.
+                                    Just a Mobile Device (Android Or IOS) — Launch the Kitchen app on your device and you team can start accepting,
+                                    managing and tracking food delivery orders in real-time.
+
                                 </Accordion.Body>
                             </Accordion.Item>
 
-
+                            <Accordion.Item eventKey="1">
+                                <Accordion.Header>How do i get verified on Kitchen on Kitchly?</Accordion.Header>
+                                <Accordion.Body>
+                                    This depends on your location, We are currently serving only those in Abuja. It takes two to three days to get listed on kitchlys.
+                                    Which requires a Physical verification from a Kitchly Rep who will help Setup your menu on the platform and get your location pin.
+                                </Accordion.Body>
+                            </Accordion.Item>
 
                             <Accordion.Item eventKey="2">
                                 <Accordion.Header>How much does it cost to sign up with Kitchly Kitchen ?</Accordion.Header>
                                 <Accordion.Body>
-                                    Just a tablet — which we can provide if you don't already have one.
-                                    Launch the Bolt Food app on your device and your team can start accepting,
-                                    managing and tracking food delivery orders in real-time.
+                                    There's no joining fee. We will help setup your kitchen and get you onboard and its totally free.
                                 </Accordion.Body>
                             </Accordion.Item>
 
@@ -207,10 +204,33 @@ const BecomeaCook = () => {
                             <Accordion.Item eventKey="3">
                                 <Accordion.Header>What about the commission fee?</Accordion.Header>
                                 <Accordion.Body>
-                                    Each order includes a small amount that helps cover the cost of delivery and other expenses.
-                                    This fee is calculated based on the approximate volumes of your business.
+                                    Each order includes a small amount that helps cover the cost of maintaining the system and other expenses.
+                                    This fee is calculated based on the Percentage discussed during onboarding with the kitchly Rep.
                                 </Accordion.Body>
                             </Accordion.Item>
+
+                            <Accordion.Item eventKey="4">
+                                <Accordion.Header>Who pays for delivery fee?</Accordion.Header>
+                                <Accordion.Body>
+                                   Delivery for each order is paid by the customer before the order is placed. Once the order is placed, the delivery company gets notified  on the Date and time to pick the order.
+                                </Accordion.Body>
+                            </Accordion.Item>
+
+                            <Accordion.Item eventKey="5">
+                                <Accordion.Header>When do i get my money?</Accordion.Header>
+                                <Accordion.Body>
+                                   It takes 24 Hours after delivery for a kitchen to be credited for each order delivered. Once the 24 Hours after delivery is completed, the amount of the meals ordered is credited to your Kitchly wallet and you can decide when to make withdrawal. Please note that you have to set a bank and withdrawal pin for your withdrawal to be processed.
+                                </Accordion.Body>
+                            </Accordion.Item>
+
+                            <Accordion.Item eventKey="6">
+                                <Accordion.Header>What kind of food do i make on kitchly?</Accordion.Header>
+                                <Accordion.Body>
+                                    Strictly Homemade meals, As a kitchen you are required to make quality, healthy homemade meals without compromise. Each order gets reviewed once it is delivered to the customer. And your kitchen is rated based on the review from the customer and Kitchly.
+                                </Accordion.Body>
+                            </Accordion.Item>
+
+                            
                         </Accordion>
 
 

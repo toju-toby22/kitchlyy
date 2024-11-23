@@ -31,7 +31,7 @@
 }
 .download-app-btn{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -41,6 +41,17 @@
 
 
 @media screen and (max-width: 576px) {
+
+    .download-app-btn{
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .download-app-btn img{
+        height: 50px !important;
+        margin-top: 20px;
+    }
 
     .logo_box{
         display: flex;

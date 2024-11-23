@@ -2,6 +2,29 @@
   /* text-align: center; */
 }
 
+@font-face {
+  font-family: "CeraPro-light";
+  src: url("./Assets/fonts/Cera-Pro-Light.otf");
+  
+}
+
+@font-face {
+  font-family: "CeraPro";
+  src: url("./Assets/fonts/CeraPro-Regular.ttf");
+  
+}
+@font-face {
+  font-family: "CeraPro-bold";
+  src: url("./Assets/fonts/Cera-Pro-Bold.otf");
+  
+}
+
+*{
+  font-family: CeraPro;
+}
+h1 ,h2,h3,h4,h5,h6{
+  font-family: CeraPro-bold;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
